@@ -167,3 +167,13 @@ section div article div i {
         width: 50%;
     } 
 }
+
+@media only screen and (max-width: 750px) {
+    header div h2 {
+        text-align: center;
+    }
+    
+    header div h2 br {
+        content: "";
+    }
+}
